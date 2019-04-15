@@ -18,7 +18,6 @@ Things we'd like to get out of this hackathon
 
 [FAIRshake](https://fairshake.cloud) has different rubrics, the [tool rubric](https://fairshake.cloud/rubric/7/) seems the most appropriate.
 
-
 # 2 Teams
 
 ## 1 - A Galaxy user can use a remote endpoint (Globus managed) to transfer data into the instance for a workflow
@@ -30,3 +29,11 @@ Things we'd like to get out of this hackathon
 5. configure step workflow to use our tool
  a. create a globus managed link (dep)
 6. validate the data was transferred from a Globus into Galaxy
+
+## Notes
+
+ * The test workflow comes from [A short introduction to Galaxy](https://galaxyproject.github.io/training-material/topics/introduction).
+ * A test Globus user has read access to the input data and write access to the shared endpoint on `dev1`
+ * The input data is stored on `petrel#ncipilot:/personal/rick/galaxy-training-data/` (endpoint UUID `ebf55996-33bf-11e9-9fa4-0a06afd4a22e`)
+ * The shared endpoint and path on `dev1` are `fairdata#dev1share:/srv/galaxy/server/database/jobs_directory/000/` (endpoint UUID `bfe3af54-5fcc-11e9-bf34-0edbf3a4e7ee`)
+ * Tokens for the test user are in `/srv/galaxy/server/database/jobs_directory/.dev-tokens.json`
