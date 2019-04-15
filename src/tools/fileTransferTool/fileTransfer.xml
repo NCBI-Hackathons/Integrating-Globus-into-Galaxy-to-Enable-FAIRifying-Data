@@ -1,0 +1,10 @@
+<tool id="file-transfer" name="File Transfer With Globus" version="0.1.0">
+  <description>Simple file transfer from one endpoint to another (both are hardcoded) </description>
+  <command interpreter="python">fileTransfer.py $input</command>
+  <inputs>
+    <param format="json" name="input" type="data" label="Token file"/>
+  </inputs>
+  <help>
+  Does simple file transfer with hardcoded endpoint params
+  </help>
+</tool>
