@@ -17,3 +17,16 @@ Things we'd like to get out of this hackathon
 ## FAIRness
 
 [FAIRshake](https://fairshake.cloud) has different rubrics, the [tool rubric](https://fairshake.cloud/rubric/7/) seems the most appropriate.
+
+
+# 2 Teams
+
+## 1 - A Galaxy user can use a remote endpoint (Globus managed) to transfer data into the instance for a workflow
+
+1. create a galaxy workflow
+2. create a step to import data
+3. create **galaxy tool** to use globus endpoints
+4. install tool on our galaxy instance
+5. configure step workflow to use our tool
+ a. create a globus managed link (dep)
+6. validate the data was transferred from a Globus into Galaxy
