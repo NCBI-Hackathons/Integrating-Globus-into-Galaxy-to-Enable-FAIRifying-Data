@@ -4,7 +4,7 @@
 
 Things we'd like to get out of this hackathon
 
-* A how to on setting up Galaxy using Globus Auth
+* A how to on setting up Galaxy using Globus Auth. There are examples of doing this for [Atlassian products](https://globus-integration-examples.readthedocs.io/en/latest/atlassian.html) and [WordPress](https://globus-integration-examples.readthedocs.io/en/latest/wordpress.html) for reference. This currently requires the Galaxy dev branch because of the version dependency on [Python Social Auth](https://python-social-auth-docs.readthedocs.io/). Enabling Globus Auth requires  changes in `config/galaxy.yml` to enable OIDC and the necessary specify `client_id`, `client_secret`, and a callback URI (which is a redirect URI) in `config/oidc_backend_config.xml`.
 
 * A Galaxy Tool template that can get securely get tokens from a user’s Galaxy environment (I.e., without using a stored database password)
 
