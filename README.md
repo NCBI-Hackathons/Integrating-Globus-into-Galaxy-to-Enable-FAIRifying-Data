@@ -7,6 +7,18 @@ The Galaxy Project recently added documentation for using [Globus Auth](https://
  * [How to configure OIDC for Galaxy](https://galaxyproject.org/authnz/config/oidc/)
  * [Globus-specific configuration](https://galaxyproject.org/authnz/config/oidc/idps/globus/)
 
+## Adding Globus Transfer
+
+Currently we have a tool that can transfer data as input to a workflow.
+
+## Adding Globus Transfer to a Workflow
+
+We started with the workflow from [A short introduction to Galaxy](https://galaxyproject.github.io/training-material/topics/introduction).
+
+![Initial Workflow](GalaxyShortIntroWorkflow.png)
+
+![Workflow with Globus](GalaxyShortIntroWithGlobus.png)
+
 ## Goals
 
 Things we'd like to get out of this hackathon
