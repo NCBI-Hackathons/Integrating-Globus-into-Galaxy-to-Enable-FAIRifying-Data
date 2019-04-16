@@ -1,5 +1,12 @@
 # Integrating-Globus-into-Galaxy-to-Enable-FAIRifying-Data
 
+## Galaxy Documentation
+
+The Galaxy Project recently added documentation for using [Globus Auth](https://docs.globus.org/api/auth/developer-guide/) as an external identity provider for Galaxy.
+
+ * [How to configure OIDC for Galaxy](https://galaxyproject.org/authnz/config/oidc/)
+ * [Globus-specific configuration](https://galaxyproject.org/authnz/config/oidc/idps/globus/)
+
 ## Goals
 
 Things we'd like to get out of this hackathon
