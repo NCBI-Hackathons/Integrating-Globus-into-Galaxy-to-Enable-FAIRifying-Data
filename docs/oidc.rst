@@ -1,5 +1,5 @@
-WordPress
-=========
+Galaxy Globus Auth OIDC Configuration
+=====================================
 
 .. image:: oidc-images/WPCoolScience.jpg
    :width: 100%
